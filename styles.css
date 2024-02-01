@@ -91,6 +91,7 @@ button {
   width: 170px;
   height: 60px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 button i {
