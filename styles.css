@@ -1,0 +1,118 @@
+:root {
+  --background-color-black: #000000;
+  --background-color-black-shade: #0A0A0A;
+  --font-grey: #676767;
+  --font-white: #FFF;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-black);
+  color: var(--font-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+  height: 720px;
+  width: 370px;
+
+  border-radius: 2rem;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0) 68.46%, var(--color-card) 96.41%);
+  box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.1);
+
+  animation: fadein 1s ease-in;
+}
+
+@keyframes fadein {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infos h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.role {
+  color: var(--font-grey);
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: var(--font-grey);
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.location i {
+  margin-right: 5px;
+}
+
+.network {
+  color: #FFF;
+  font-size: 2.5rem;
+}
+
+
+
+/* 
+button {
+  background-color: white;
+  letter-spacing: 1px;
+  border-radius: 12px;
+  font-size: 1rem;
+  width: 170px;
+  height: 60px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button i {
+  font-size: 25px;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
