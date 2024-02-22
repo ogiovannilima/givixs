@@ -1,0 +1,28 @@
+:root {
+  --background-color-black: #000000;
+  --background-color-black-shade: #0A0A0A;
+  --font-grey: #676767;
+  --font-white: #FFF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-size: cover;
+  color: #FFF;
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
