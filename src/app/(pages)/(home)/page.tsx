@@ -9,14 +9,15 @@ import Portrait from '../../../../public/portrait.jpg'
 
 export default function Home() {
   const githubUrl = 'https://github.com/ogiovannilima'
+
   return (
     <main className={styles.container}>
       <section className={styles.content}>
-        <article className={styles.card}>
-          <figure className={styles.teste}>
+        <div className={styles.card}>
+          <div className={styles.imageProfile}>
             <Image src={Portrait} alt="portrait photo" />
-            <div className={styles.overlay}></div>
-          </figure>
+            <div className={styles.overlay} />
+          </div>
           <div className={styles.infos}>
             <h1 className={styles.name}>Giovanni Lima</h1>
             <p className={styles.role}>Software Engineer</p>
@@ -28,11 +29,13 @@ export default function Home() {
           <nav className={styles.network}>
             <a target="_blank" href={githubUrl}>
               <FaGithub />
-            </a>
+            </a>  
           </nav>
-        </article>
+        </div>
       </section>
-      <Article />
+      <div>
+      {/* <Article /> */}
+      </div>
     </main>
   );
 }
