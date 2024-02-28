@@ -1,10 +1,10 @@
 import { RiMapPin3Line } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 
-import Article from '@/components/article/page'
+import Article from '@/components/article/article'
+import Avatar from "@/components/avatar/Avatar";
 
 import styles from '@/(pages)/(home)/page.module.css'
-import Avatar from "@/components/avatar/Avatar";
 
 export default function Home() {
   const githubUrl = 'https://github.com/ogiovannilima'
@@ -30,6 +30,7 @@ export default function Home() {
         </div>
       </section>
       <div>
+      <Article />
       <Article />
       </div>
     </main>
