@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+    width: 340px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container div {
+    margin-top: 0.5rem;
+    font-size: 12px;
+    text-align: right;
+}
