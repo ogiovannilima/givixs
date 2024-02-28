@@ -12,17 +12,23 @@
     align-items: center;
     background-color: var(--background-color-black);
     color: var(--font-white);
+
+    max-height: 650px;
+    width: 340px;
+
+    margin-top: 100px;
 }
 
 .card {
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
     margin: 0 auto;
-    height: 650px;
-    width: 340px;
+    
 
     border-radius: 2rem;
     background: linear-gradient(180deg, rgba(10, 10, 10, 0) 68.46%, var(--color-card) 96.41%);
@@ -30,7 +36,7 @@
 
     animation: fadein 1s ease-in;
 }
-.teste {
+.imageProfile {
     position: relative;
 }
 .card img {
