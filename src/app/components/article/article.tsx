@@ -1,12 +1,26 @@
 import styles from '@/components/article/article.module.css'
+import { title } from 'process'
 
-export default function Article(){
+export interface ArticleProps {
+    id?: number
+    title: string
+    description: string
+    tag: string[]
+}
+
+export default function Article(articles: ArticleProps){
     return (
         <>
         <div className={styles.container}>
-            <h1>TITULO</h1>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reprehenderit sunt harum omnis.</span>
-            <div>20-02-2024</div>
+            <h1>{articles.title}</h1>
+            <span>{articles.description}</span>
+            <div>
+            {articles.tag.map((tag) => {
+                return (
+                    <a key={tag} href="#">{tag}</a>
+                )
+            })}
+            </div>
         </div>
         </>
     )
