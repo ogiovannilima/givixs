@@ -1,11 +1,10 @@
-import Image from 'next/image'
 import { RiMapPin3Line } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 
 import Article from '@/components/article/page'
 
 import styles from '@/(pages)/(home)/page.module.css'
-import Portrait from '../../../../public/portrait.jpg'
+import Avatar from "@/components/avatar/Avatar";
 
 export default function Home() {
   const githubUrl = 'https://github.com/ogiovannilima'
@@ -14,10 +13,7 @@ export default function Home() {
     <main className={styles.container}>
       <section className={styles.content}>
         <div className={styles.card}>
-          <div className={styles.imageProfile}>
-            <Image src={Portrait} alt="portrait photo" />
-            <div className={styles.overlay} />
-          </div>
+          <Avatar />
           <div className={styles.infos}>
             <h1 className={styles.name}>Giovanni Lima</h1>
             <p className={styles.role}>Software Engineer</p>
@@ -34,7 +30,7 @@ export default function Home() {
         </div>
       </section>
       <div>
-      {/* <Article /> */}
+      <Article />
       </div>
     </main>
   );
