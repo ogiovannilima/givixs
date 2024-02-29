@@ -1,5 +1,5 @@
 import { RiMapPin3Line } from "react-icons/ri";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import Article from '@/components/article/article'
 import Avatar from "@/components/avatar/Avatar";
@@ -9,6 +9,7 @@ import styles from '@/(pages)/(home)/page.module.css'
 
 export default function Home() {
   const githubUrl = 'https://github.com/ogiovannilima'
+  const linkedinUrl = 'https://www.linkedin.com/in/giovannilimaa/'
 
   const articles: ArticleProps[] = [
     {
@@ -77,6 +78,9 @@ export default function Home() {
           <nav className={styles.network}>
             <a target="_blank" href={githubUrl}>
               <FaGithub />
+            </a>
+            <a target="_blank" href={linkedinUrl}>
+              <FaLinkedin />
             </a>
           </nav>
         </div>
