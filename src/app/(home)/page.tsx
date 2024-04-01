@@ -5,7 +5,7 @@ import Article from '@/components/article/article'
 import Avatar from "@/components/avatar/Avatar";
 import { ArticleProps } from '@/components/article/article'
 
-import styles from '@/(pages)/(home)/page.module.css'
+import styles from '@/(home)/page.module.css'
 
 export default function Home() {
   const githubUrl = 'https://github.com/ogiovannilima'
