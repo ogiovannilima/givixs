@@ -1,36 +1,36 @@
 .container {
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-    padding: 1rem 1rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: #000; */
+    /* padding: 1rem 1rem; */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+    /* z-index: 999; */
 }
 
 .textBox {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
 
-    @media only screen and (min-width: 420px) {
+    /* @media only screen and (min-width: 420px) {
         max-width: 50%;
-    }    
+    }     */
 }
 
 .title {
-    color: #FFF;
-    font-size: 1rem;
-    letter-spacing: 1.5px;
+    /* color: #FFF; */
+    /* font-size: 1rem; */
+    /* letter-spacing: 1.5px; */
 }
 
 .icon {
-    color: #a80000;
-    font-size: 1.7rem;
+    /* color: #a80000; */
+    /* font-size: 1.7rem; */
 }
 
 
