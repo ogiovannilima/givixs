@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={oswald.className}>
         <NavBar />
-        {children}
+        <div className="mt-[62px] bg-black">
+          {children}
+        </div>
       </body>
     </html>
   );

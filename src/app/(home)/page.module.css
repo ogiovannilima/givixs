@@ -1,8 +1,10 @@
 .container {
+    background-color: black;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #FFF;
 }
 
 .content {
@@ -16,7 +18,7 @@
     max-height: 650px;
     width: 340px;
 
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .card {
@@ -30,7 +32,7 @@
     margin: 0 auto;
 
     border-radius: 2rem;
-    background: linear-gradient(180deg, rgba(10, 10, 10, 0) 68.46%, var(--color-card) 96.41%);
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0) 89%, #FFF 210%);
     box-shadow: inset 0px 5px 5px rgba(255, 255, 255, 0.1);
 
     animation: fadein 1s ease-in;
